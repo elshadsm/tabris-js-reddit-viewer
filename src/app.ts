@@ -7,5 +7,7 @@ import './ui/SubredditPage';
 import './ui/SubredditSelectorView';
 import './ui/ViewModeToggleAction';
 
+// sssss aaaa
+
 resolve(SubredditSelectorPresenter).subreddits = DEFAULT_REDDITS;
 resolve(Navigation).navigateTo(resolve(SubredditPresenter).view);
