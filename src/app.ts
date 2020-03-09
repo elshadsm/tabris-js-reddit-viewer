@@ -7,7 +7,7 @@ import './ui/SubredditPage';
 import './ui/SubredditSelectorView';
 import './ui/ViewModeToggleAction';
 
-// sssss aaaa
+console.log('This is as test change!');
 
 resolve(SubredditSelectorPresenter).subreddits = DEFAULT_REDDITS;
 resolve(Navigation).navigateTo(resolve(SubredditPresenter).view);
